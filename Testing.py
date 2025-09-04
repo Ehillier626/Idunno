@@ -12,3 +12,5 @@ b = st.slider("select Number", 1, 100, key="b")
 Addition(a, b)
 
 st.write("The addition is", Addition(a, b))
+
+color = st.color_picker('Pick a color')
